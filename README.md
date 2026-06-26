@@ -33,11 +33,13 @@ Pipeline yang diterapkan meliputi akuisisi data, eksplorasi dataset, praproses c
 ## 📂 Struktur Proyek
 
 ```
-Project Akhir/
-├── CODE.ipynb                                          # Notebook utama
-├── LAPORAN AKHIR PROYEK PENGENALAN CITRA DIGITAL.docx # Laporan lengkap
-├── PROPOSAL.docx                                       # Proposal proyek
-├── Salinan dari PCD Kuliah_Project Akhir_Topik 5_Kelompok.pdf  # Slide presentasi
+face-mask-classification-cnn/
+├── notebooks/
+│   └── face_mask_classification.ipynb   # Notebook utama (eksplorasi, pelatihan, evaluasi)
+├── docs/
+│   ├── final_report.docx                # Laporan akhir lengkap
+│   ├── proposal.docx                    # Proposal proyek
+│   └── presentation.pdf                 # Slide presentasi
 └── README.md
 ```
 
@@ -144,8 +146,8 @@ Pastikan Anda memiliki Python 3 dan Jupyter Notebook terinstal. Disarankan mengg
 
 1. **Clone repositori ini:**
    ```bash
-   git clone https://github.com/<username>/<repo-name>.git
-   cd "<repo-name>"
+   git clone https://github.com/wildanhatami/face-mask-classification-cnn.git
+   cd face-mask-classification-cnn
    ```
 
 2. **Instal dependensi:**
@@ -159,7 +161,7 @@ Pastikan Anda memiliki Python 3 dan Jupyter Notebook terinstal. Disarankan mengg
 
 4. **Buka notebook:**
    ```bash
-   jupyter notebook CODE.ipynb
+   jupyter notebook notebooks/face_mask_classification.ipynb
    ```
    Atau upload ke Google Colab dan jalankan sel secara berurutan.
 
